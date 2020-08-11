@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glen J Harvey</title>
+    <link rel="icon" href="https://scontent.fccj2-1.fna.fbcdn.net/v/t1.0-1/c3.0.240.240a/p240x240/116716190_112575927222949_6227037368332186544_o.jpg?_nc_cat=106&_nc_sid=dbb9e7&_nc_ohc=RdWvXwkP_HoAX-o9kxM&_nc_ht=scontent.fccj2-1.fna&oh=cee199524480e675897a03bd2f309d7b&oe=5F562C50" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+<body>
+
+<header class="bg-info" style="position: fixed; width: 100%; z-index: 1;">
+    <div class="row text-white">
+        <div class="col-md-6  col-9 p-3 pl-5">
+            <h2>Glen J Harvey</h2>
+        </div>
+        <div class="col-md-6 col-3 my-auto">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+             
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link text-white" href="#home-section">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#services-section">Services</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-white" href="#experience-section">Experience</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#contactme-section">Contact Me</a>
+                      </li>
+                  </ul>                  
+                </div>
+              </nav>  
+        </div>
+    </div>
+</header>
+
+<section id="home-section" style="padding-top: 10em;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+        <img src="data:image/jpeg;base64,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"
+            alt="" class="img-fluid rounded-circle">
+      </div>
+            <div class="col-md-6">
+              <h4 class="pt-4"> HI I AM GLEN J HARVEY<br>
+                Investor : +7 years of trading experience</h4>
+                  <p>"You are the average of 5 people you hang around"</p>
+                  <footer>-Glen J Harvey</footer>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-light p-5" id="services-section">
+    <div class="container">
+        <h1 class="text-center">Services</h1>
+        <div class="row pt-3">
+         <div class="col-md-4">
+            <div class="card text-center p-3" >
+                <i class="fas fa-business-time display-1 text-info"></i>
+                <div class="card-body">
+                  <h5 class="card-title">MARKET ANALYSIS</h5>
+                  <p class="card-text">Save time and recive highly-accurate Crypto trading signals,market analysis,and advice from me to grow your capital and also i am analysing crypto for long term and short term purpose.</p>
+                </div>
+              </div> 
+            </div> 
+                     <div class="col-md-4">
+                        <div class="card text-center p-3">
+                            <i class="fas fa-exclamation display-1 text-info"></i>
+                            <div class="card-body">
+                              <h5 class="card-title">TECHNICAL ANALYSIS CLASSES</h5>
+                              <p class="card-text"> Our team have created section videos for increasing your basic level to pro level, their is no rocket science behind this learning, its very simpe if u have learning attractions.</p>
+                            </div>
+                          </div> 
+                         </div>
+                         <div class="col-md-4">
+                            <div class="card text-center p-3" >
+                                <i class="fas fa-file-contract display-1 text-info"></i>
+                                <div class="card-body">
+                                  <h5 class="card-title">CRYPTO ALT , BTC SIGNALS</h5>
+                                  <p class="card-text">Trading signals 24/7 , We are a group of crypto traders with trading experienced in Forex and futures and options markets since 2013 and also with experience in crypto currency trading.</p>
+                                </div>
+                              </div> 
+                             </div>
+                            </div>  
+</section>
+<section class="bg-light p-5" id="services-section">
+  <div class="container">
+      <div class="row pt-3">
+       <div class="col-md-4">
+          <div class="card text-center p-3" >
+            <i class="fas fa-edit display-1 text-info"></i>
+              <div class="card-body">
+                <h5 class="card-title">WEB DESIGNING</h5>
+                <p class="card-text">I was always fascinated by the technicalities with which websities were designed , So started my journey by making a website for my self.</p>
+              </div>
+            </div> 
+          </div> 
+                   <div class="col-md-4">
+                      <div class="card text-center p-3">
+                        <i class="fas fa-tty display-1 text-info" ></i>
+                          <div class="card-body">
+                            <h5 class="card-title">CRYPTOZ COMMUNITY</h5>
+                            <p class="card-text">Cryptoz community is the ultimate all in one trading room designed for professional traders, cryptoz is proven to help traders in our fb comminuty .</p>
+                          </div>
+                        </div> 
+                       </div>
+                       <div class="col-md-4">
+                          <div class="card text-center p-3" >
+                            <i class="fas fa-desktop display-1 text-info"></i>
+                              <div class="card-body">
+                                <h5 class="card-title">TRADING</h5>
+                                <p class="card-text">My love for trading started when i was in school, Still i like to learn new tarding algorithm and trading phychology.</p>
+                              </div>
+                            </div> 
+                           </div>
+                          </div>  
+</section>
+<section class="bg-white p-5" id="experience-section">
+    <div class="container">
+        <h1 class="text-center">Experiences</h1>
+      <div class="row">
+
+        <div class="col-md-4">
+            <div class="card text-center p-3">
+              <img src="https://i0.wp.com/readytofind.com/wp-content/uploads/2019/09/trading.jpg"
+              class="card-img-top" alt="" style="height: 16em;">
+               <div class="card-body">
+                  <h5 class="card-title">TRADING</h5>
+                  <p class="card-text">+7 years <br>
+                  When i am started trading it's just a part-time job for me but after several years of very profitable trading, i decided trading as my profession.</p>
+                </div>
+              </div> 
+             </div>
+
+             <div class="col-md-4">
+                <div class="card text-center p-3">
+                    <img src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/01/which-web-design-platform-is-right-for-you-5e4d59fb941b9-760x400.png"
+                    class="card-img-top" alt="" style="height:16em;">
+                    <div class="card-body">
+                      <h5 class="card-title">WEB DESIGNING</h5>
+                      <p class="card-text">+4 years <br>
+                      Through the knowledge which i gained from online tutorials i started working as a Freelance web designer.</p>
+                    </div>
+                  </div> 
+                 </div> 
+
+                 <div class="col-md-4">
+                    <div class="card text-center p-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRNz93t8Ra_o68dJVTti3-FTDuze2x9CRgnyA&usqp=CAU"
+                        class="card-img-top" alt="" style="height:16em;">
+                        <div class="card-body">
+                          <h5 class="card-title">RESEARCH AND BRANDING</h5>
+                          <p class="card-text"> As research associate, i got the opportunity to work smart control algorithm for renewable energy sources.</p>
+                        </div>
+                      </div> 
+                     </div>
+      </div>
+    </div>
+</section>
+<section class="p-5 bg-light" id="contactme-section">
+<div class="container">
+    <h1 class="text-center">Contact me</h1>
+    <div class="row">
+        <div class="col-md-12">
+        <form id="form-row" action="">
+            <div class="form-row" >
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Name</label>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Place</label>
+                <input type="text" class="form-control" id="inputPassword4" placeholder="Place">
+              </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Mobile</label>
+                  <input type="tel" class="form-control" id="inputPassword4" placeholder="Mobile">
+                </div>
+              </div>
+            <div class="form-group">
+              <label for="inputAddress">Message</label>
+              <textarea class="form-control" cols="30" rows="10" placeholder="Type your message here..."></textarea>
+            </div>
+            
+            
+           <div class="form-group text-center ">
+          
+            <button  type="submit" class="btn btn-primary" style="width:100%;">Submit</button>
+           
+           </div>
+          </form>
+          </div>
+    </div>
+</div>
+
+
+</section>
+
+<footer class="bg-info">
+    <div class="container">
+        <div class="row">
+           <div class="col-md-12 text-center text-white">
+               <a href="https://www.facebook.com/groups/1215350681930629/">
+            <i class="fab fa-facebook-square"></i>
+             <i class="fab fa-instagram"></i>
+            <a href="https://www.facebook.com/glenjharveyofficial/">
+            <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="glennjharvey9363@gmail.com">
+            <i class="fas fa-envelope-open-text"></i>
+            </a>
+               <p>Copyrights @cryptoz2020</p>
+           </div>  
+        </div>
+    </div>
+</footer>
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/4a28c68106.js" crossorigin="anonymous"></script>
+<script>
+  $("#form-row").submit((e)=>{
+      e.preventDefault()
+      $.ajax({
+          url:"https://script.google.com/macros/s/AKfycbzMbMBQekLxDwFtp3-owvDzp5RDU6ouWAUQpRTJ_w/exec",
+          data:$("#form-row").serialize(),
+          method:"post",
+          success:function (response){
+              alert("Form submitted successfully")
+              window.location.reload()
+              //window.location.href="https://google.com"
+          },
+          error:function (err){
+              alert("Something Error")
+
+          }
+      })
+  })
+</script>
+</body>
+</html>
